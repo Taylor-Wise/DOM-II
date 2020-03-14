@@ -326,32 +326,6 @@ img {
     margin: 0 auto 30px;
   }
 }
-@keyframes rainbow {
-  0% {
-    background-color: darkpink;
-  }
-  14.2% {
-    background-color: red;
-  }
-  28.4% {
-    background-color: orange;
-  }
-  42.6% {
-    background-color: yellow;
-  }
-  56.8% {
-    background-color: green;
-  }
-  71% {
-    background-color: lightblue;
-  }
-  85.2% {
-    background-color: lightpurple;
-  }
-  100% {
-    background-color: violet;
-  }
-}
 .home .content-pick .destination .btn {
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -366,9 +340,6 @@ img {
   border: 1px solid #C0C0C0;
   cursor: pointer;
   font-size: 1.8rem;
-  animation-name: rainbow;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
 }
 @media (max-width: 500px) {
   .home .content-pick .destination .btn {

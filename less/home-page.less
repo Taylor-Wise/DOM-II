@@ -105,9 +105,21 @@
         width: 80%;
         margin: 0 auto 30px;
       }
-      
+      @keyframes rainbow {
+        0%   {background-color: darkpink;}
+      14.2%  {background-color: red;}
+      28.4%  {background-color: orange;}
+      42.6% {background-color: yellow;}
+      56.8%  {background-color: green;}
+      71%  {background-color: lightblue;}
+      85.2% {background-color: lightpurple;}
+      100% {background-color: violet;}
+    }
       .btn {
-        .button-creator(200px, 45px, @button-bg, @white, 1.8rem);     
+        .button-creator(200px, 45px, @button-bg, @white, 1.8rem);
+        animation-name: rainbow;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
       }
     }
   }
